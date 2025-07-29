@@ -1,0 +1,32 @@
+.destination-item {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  list-style-type: none;
+  text-align: center;
+}
+
+.destination-item:hover {
+  transform: scale(1.03);
+}
+
+
+.destination-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+  margin: 12px 0;
+}
